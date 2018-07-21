@@ -9,7 +9,7 @@
 
 .banner-content {
   transition: all 5s ease-in-out;
-  margin-top: -500px;
+  margin-top: -300px;
   justify-content: center;
   text-align: center;
   font-family: Raleway;
@@ -19,9 +19,8 @@
 .banner h1 {
   border: 3px solid white;
   padding: 10px 20px;
-  font-size: 80px;
+  font-size: 40px;
   color: white;
-
 }
 
 .banner a {
