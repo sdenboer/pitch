@@ -8,8 +8,8 @@ body {
 
 .parallax {
     height: 2300px;
-    background-attachment: fixed;
-    background-position: scroll;
+    background-attachment: scroll;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -108,13 +108,12 @@ h2 {
 
 /*@media (max-width: 991px) {
 
- .top-bar-about{
+ .parallax{
     background-attachment: scroll;
-    padding: 254px 0px !important;
  }
 
-}
-*/
+}*/
+
 
 
 
