@@ -7,8 +7,8 @@ body {
 }
 
 .parallax {
-    height: 2300px;
-    background-attachment: scroll;
+    height: 100%;
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -85,6 +85,11 @@ h2 {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+}
+
+.card-content:hover .card-hover p {
+  position: absolute;
+  bottom: 40px;
   text-align: justify;
   font-size: 15px;
   font-family: Montserrat;
@@ -93,8 +98,10 @@ h2 {
 }
 
 .card-content:hover .card-hover img {
+  position: absolute;
   height: 70px;
-  margin-bottom: 40px;
+  top: 30px;
+/*  margin-bottom: 40px;*/
 
 }
 
