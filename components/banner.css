@@ -5,15 +5,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .banner-content {
-  transition: all 5s ease-in-out;
-  margin-top: -300px;
   justify-content: center;
   text-align: center;
   font-family: Raleway;
   font-weight: 200;
+
 }
 
 .banner h1 {
@@ -21,12 +21,42 @@
   padding: 20px 20px;
   font-size: 40px;
   color: white;
-}
-
-.banner a {
-  text-decoration: none;
+  position: absolute;
+  top: 30px;
+  transform:translateX(-50%);
 }
 
 span {
   float: right;
+}
+
+.intr-link {
+  position: absolute;
+  bottom: 140px;
+  transform:translateX(-50%);
+}
+
+/*.problem-link {
+  position: absolute;
+  bottom: 50px;
+  left: 20px;
+}
+
+.target-link {
+  position: absolute;
+  bottom: 50px;
+  transform:translateX(-50%);
+}
+
+.solution-link {
+  position: absolute;
+  bottom: 50px;
+  right: 20px
+}*/
+
+.banner h2 {
+  border: 2px solid white;
+  padding: 10px 5px;
+  font-size: 20px;
+  border-radius: 3px;
 }
