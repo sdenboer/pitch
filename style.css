@@ -9,7 +9,7 @@ body {
 .parallax {
     height: 2300px;
     background-attachment: fixed;
-    background-position: center;
+    background-position: scroll;
     background-repeat: no-repeat;
     background-size: cover;
 }
