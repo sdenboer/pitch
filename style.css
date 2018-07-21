@@ -7,9 +7,11 @@ body {
 }
 
 .parallax {
-    background-attachment: scroll;
-    background-position-x: 55%;
+    /*background-attachment: scroll;*/
+    /*background-position-y: 59%;*/
     background-position-y: 0%;
+    background-attachment: fixed;
+    background-position-x: 55%;
     background-repeat: no-repeat;
     background-size: 2000px;
 }
@@ -122,39 +124,25 @@ img.preview {
 
 
 
-/*@media (max-width: 991px) {
-
- .parallax{
-    background-attachment: scroll;
- }
-
-}*/
-
-
-
-
-
-
-/*
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 720px) {
   .mobile {
     visibility: hidden;
     display: none;
   }
 
   p {
-    font-size: 8px;
+    font-size: 30px;
     text-align: center;
     padding-top: 50px;
   }
 
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 720px) {
   .pc {
     visibility: hidden;
     display: none;
   }
 }
-*/
+
 
