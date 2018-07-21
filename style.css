@@ -7,7 +7,7 @@ body {
 }
 
 .parallax {
-    height: 5000px;
+    height: 2300px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -25,13 +25,16 @@ h2 {
   text-align: center;
   font-family: Montserrat;
   font-size: 30px;
+
 }
 
 .text p {
+  margin-top: 0px;
   padding-left: 20px;
   padding-right:20px;
   font-size: 15px;
   text-align: justify;
+  padding-top: 30px;
 }
 
 .text img {
@@ -85,13 +88,13 @@ h2 {
   text-align: justify;
   font-size: 15px;
   font-family: Montserrat;
-  padding-right: 5px;
-  padding-left: 5px;
+  padding-right: 18px;
+  padding-left: 18px;
 }
 
 .card-content:hover .card-hover img {
-  height: 50px;
-  margin-bottom: 50px;
+  height: 70px;
+  margin-bottom: 40px;
 
 }
 

@@ -26,3 +26,7 @@
 .banner a {
   text-decoration: none;
 }
+
+span {
+  float: right;
+}
