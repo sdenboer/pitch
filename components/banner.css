@@ -1,0 +1,29 @@
+/* Your banner CSS file */
+.banner {
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-content {
+  transition: all 5s ease-in-out;
+  margin-top: -500px;
+  justify-content: center;
+  text-align: center;
+  font-family: Raleway;
+  font-weight: 200;
+}
+
+.banner h1 {
+  border: 3px solid white;
+  padding: 10px 20px;
+  font-size: 80px;
+  color: white;
+
+}
+
+.banner a {
+  text-decoration: none;
+}
