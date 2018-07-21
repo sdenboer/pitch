@@ -9,6 +9,7 @@ body {
 .parallax {
     height: 100%;
     background-attachment: fixed;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -20,11 +21,11 @@ h2 {
 
 .text {
   background-color: white;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
   text-align: center;
   font-family: Montserrat;
   font-size: 30px;
-
+  padding-top: 30px;
 }
 
 .text p {
