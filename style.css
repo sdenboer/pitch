@@ -123,8 +123,8 @@ img.preview {
 
 
 
-
-@media screen and (min-width: 720px) {
+/*#####################################################*/
+/*@media screen and (min-width: 720px) {
   .mobile {
     visibility: hidden;
     display: none;
@@ -142,6 +142,12 @@ img.preview {
     visibility: hidden;
     display: none;
   }
+}*/
+/*######################################################*/
+
+@media screen and (min-width: 1px) {
+  .pc, .mobile {
+    visibility: hidden;
+    display: none;
+  }
 }
-
-

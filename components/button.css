@@ -3,8 +3,27 @@
   text-align: center;
   font-family: Raleway;
   padding: 10px 15px;
-  display: inline-block;
+  display: flex;
 }
+
+.btn-treehouse {
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  align-items: center ;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  height: 100px;
+  box-shadow: 5px 2px 2px black;
+}
+
+.btn-treehouse:hover {
+  background-color: #A60F19;
+}
+
+
+
 
 .btn-white {
   color: white ;
@@ -22,7 +41,7 @@
 }
 
 
-.btn-medium {
+/*.btn-medium {
   border-radius: 3px;
   color: #6077C4 ;
   font-weight: 200;
@@ -34,21 +53,9 @@
   color: #325DAD;
   border: .8px solid #325DAD;
 }
+*/
 
-.btn-treehouse {
-  background-color: red;
-  color: white;
-  border-radius: 3px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 10%;
-}
-
-.btn-treehouse:hover {
-  background-color: #A60F19;
-}
-
+/*
 .btn-yours {
   border-radius: 3px;
   color: white ;
@@ -60,5 +67,5 @@
   color: white;
   background-color: #325DAD;
 }
-
+*/
 
