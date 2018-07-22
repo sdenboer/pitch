@@ -6,24 +6,37 @@
   display: flex;
 }
 
-.btn-treehouse {
-  background-color: red;
+.btn-no, .btn-yes {
   color: white;
   border-radius: 50%;
   align-items: center ;
-  margin-left: auto;
+  margin-left: 50px;
   margin-right: auto;
   width: 100px;
   height: 100px;
   box-shadow: 5px 2px 2px black;
+  display: inline-block;
 }
 
-.btn-treehouse:hover {
+.btn-no {
+  background-color: red;
+}
+
+.btn-no:hover {
   background-color: #A60F19;
 }
 
+.btn-yes {
+  background-color: green;
+}
 
+.btn-yes:hover {
+  background-color: #006813;
+}
 
+.btn-yes h3, .btn-no h3 {
+  padding-top: 20px;
+}
 
 .btn-white {
   color: white ;
@@ -39,33 +52,3 @@
   opacity: 1;
   background-color: blue;
 }
-
-
-/*.btn-medium {
-  border-radius: 3px;
-  color: #6077C4 ;
-  font-weight: 200;
-  border: .8px solid #6077C4;
-  position: relative;
-}
-
-.btn-medium:hover {
-  color: #325DAD;
-  border: .8px solid #325DAD;
-}
-*/
-
-/*
-.btn-yours {
-  border-radius: 3px;
-  color: white ;
-  font-weight: 400;
-  background-color:#6077C4;
-}
-
-.btn-yours:hover {
-  color: white;
-  background-color: #325DAD;
-}
-*/
-
